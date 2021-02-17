@@ -1,0 +1,45 @@
+{
+  "name": "mindustryintellisenseforvscode",
+  "displayName": "Mindustry Intellisense",
+  "version": "0.0.1",
+  "publisher": "ms-vscode",
+  "description": "Mindustry code intellisense for VSCode",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#c80000",
+    "theme":"dark"
+  },
+  "categories": ["Other"],
+  "main": "./release",
+  "activationEvents": ["onLanguage:hjson"],
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+    "test": "console.log(\"hello world\")"
+  },
+  "engines": {"vscode": "^1.22.0"},
+"bugs":{
+  "url":"https://github.com/d3ck/MindustryIntellisenseForVSCode/issues",
+  "email":""
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3ck/MindustryIntellisenseForVSCode.git"
+  },
+  "keywords": [
+    "extension",
+    "vscode",
+    "mindustry"
+  ],
+  "author": "Gato Gaiato",
+  "license": "MIT",
+  "homepage": "https://github.com/d3ck/MindustryIntellisenseForVSCode#readme",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "@types/vscode":"^1.53.0",
+    "typescript": "^4.1.5",
+    "vsce": "^1.85.0"
+  }
+}
