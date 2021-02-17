@@ -2,7 +2,6 @@
     "name": "Mindustry Intellisense For VSCode",
     "short_name": "MindustryIntellisenseForVSCode",
     "version":"0.0.1",
-    "start_url": "/",
     "icons": [
       {
         "src": "/icons/icon512.png",
@@ -13,6 +12,5 @@
     "theme_color": "#2196f3",
     "background_color": "#2196f3",
     "display": "browser",
-    "scope": "/",
     "orientation": "portrait"
   }
