@@ -1,6 +1,7 @@
 {
     "name": "Mindustry Intellisense For VSCode",
     "short_name": "MindustryIntellisenseForVSCode",
+    "version":"0.0.1",
     "start_url": "/",
     "icons": [
       {
